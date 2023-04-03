@@ -16,10 +16,10 @@ Abstract:xxx
   ```
 ## Directory Hierarchy
 ```
-|—— src
-|    |—— first_promise.html
-|    |—— script.js
-|    |—— style.css
+| src
+|    | first_promise.html
+|    | script.js
+|    | style.css
 ```
 ## Code Details
 Codigo baseado na apresenta��o da aula
