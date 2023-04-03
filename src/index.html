@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat GPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="titulo">CHAT GPT</h1>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <div class="banner-box">
+        <div class="slideshow-container">
+
+            <div class="slide fade">
+                <a href="#"><img class="desktop"
+                        src="https://thumbs.dreamstime.com/b/banner-two-hide-puppies-dogs-big-ears-paws-hanging-blank-row-isolated-blue-colored-background-198497906.jpg"></a>
+            </div>
+            <div class="slide fade">
+                <a href="#"><img class="desktop"
+                        src="https://thumbs.dreamstime.com/b/collage-different-dogs-white-background-banner-design-179886014.jpg"></a>
+            </div>
+            <div class="slide fade">
+                <a href="#"><img class="desktop"
+                        src="https://www.freewebheaders.com/wp-content/gallery/cats/lovely-american-shorthair-kitten-website-header.jpg"></a>
+            </div>
+
+            <i class="fa-solid fa-chevron-left prev"></i>
+            <i class="fa-solid fa-chevron-right next"></i>
+
+            <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+        <textarea class="mode" placeholder="Me pergunte algo..." id="question" cols="30"></textarea>
+        <br>
+        <textarea class="mode" placeholder="Resposta" id="result" cols="30" id="result" rows="10" readonly></textarea>
+        <br>
+        <button class="button" type="button" id="send-question">Enviar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
