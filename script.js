@@ -1,7 +1,7 @@
 const inputQuestionGPT = document.querySelector('#question');
 const resultQuestionGPT = document.querySelector('#result');
 const buttonSendQuestion = document.querySelector('#send-question')
-const OPEN_API_KEY = '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';
+const OPEN_API_KEY = '';
 
 inputQuestionGPT.addEventListener('keypress', (event) => {
     if (inputQuestionGPT.value && event.key === 'Enter') {
